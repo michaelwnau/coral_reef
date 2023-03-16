@@ -25,13 +25,13 @@ To use coral_reef, import the coral_reef module and call its functions:
 
 $ import coral_reef
 
-# Install and set up the Coral platform with PyTorch support
+## Install and set up the Coral platform with PyTorch support
 coral_reef.install(pytorch=True)
 
-# Test the Edge TPU Accelerator
+## Test the Edge TPU Accelerator
 coral_reef.test()
 
-# Run a sample PyTorch script using the Edge TPU Accelerator
+## Run a sample PyTorch script using the Edge TPU Accelerator
 coral_reef.run_sample('pytorch_classification.py', ['--model', 'models/mobilenet_v2_1.0_224_inat_bird_quant_edgetpu.pth',
                                                     '--labels', 'models/inat_bird_labels.txt',
                                                     '--input', 'images/parrot.jpg',
