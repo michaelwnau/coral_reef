@@ -38,7 +38,7 @@ To use coral_reef, import the coral_reef module and call its functions:
                                                     '--output', 'results/parrot.jpg',
                                                     '--top_k', '3'])`
 
-The install() function installs and sets up the Coral platform, including PyTorch and Torchvision support, while the test() function tests the Edge TPU Accelerator. The run_sample() function runs a sample PyTorch script using the Edge TPU Accelerator.
+The `install()` function installs and sets up the Coral platform, including PyTorch and Torchvision support, while the test() function tests the Edge TPU Accelerator. The run_sample() function runs a sample PyTorch script using the Edge TPU Accelerator.
 
 ## Conclusion
 The coral_reef package makes it easy to install and set up the Google Coral developer tools for the Coral hardware, libraries, and dependencies, including PyTorch support. By automating these tasks, the package allows users to quickly get started with the Coral platform and start building powerful machine learning applications that can run at the edge.
