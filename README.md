@@ -18,21 +18,21 @@ Run sample scripts that demonstrate the use of the Edge TPU Accelerator.
 Installation
 To install coral_reef, simply run:
 
-$ pip install coral_reef
+`$ pip install coral_reef`
 
 ## Usage
 To use coral_reef, import the coral_reef module and call its functions:
 
-$ import coral_reef
+`$ import coral_reef`
 
 ## Install and set up the Coral platform with PyTorch support
-coral_reef.install(pytorch=True)
+`coral_reef.install(pytorch=True)`
 
 ## Test the Edge TPU Accelerator
-coral_reef.test()
+`coral_reef.test()`
 
 ## Run a sample PyTorch script using the Edge TPU Accelerator
-#@markdown `coral_reef.run_sample('pytorch_classification.py', ['--model', 'models/mobilenet_v2_1.0_224_inat_bird_quant_edgetpu.pth',
+`coral_reef.run_sample('pytorch_classification.py', ['--model', 'models/mobilenet_v2_1.0_224_inat_bird_quant_edgetpu.pth',
                                                     '--labels', 'models/inat_bird_labels.txt',
                                                     '--input', 'images/parrot.jpg',
                                                     '--output', 'results/parrot.jpg',
