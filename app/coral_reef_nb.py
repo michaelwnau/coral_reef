@@ -1,0 +1,6 @@
+from IPython.display import display
+...
+def run_sample(script, args):
+    ...
+    output_image = Image.open(output_path)
+    display(output_image)
