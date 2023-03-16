@@ -43,4 +43,4 @@ The `install()` function installs and sets up the Coral platform, including PyTo
 ## Conclusion
 The coral_reef package makes it easy to install and set up the Google Coral developer tools for the Coral hardware, libraries, and dependencies, including PyTorch support. By automating these tasks, the package allows users to quickly get started with the Coral platform and start building powerful machine learning applications that can run at the edge.
 
-Google Coral and Edge TPU are trademarks of Google LLC. The `coral_reef` package is not affiliated with or endorsed by Google LLC. The Google Coral trademarks and logos are the property of Google LLC and are used here for informational purposes only. Any use of the Google Coral trademarks and logos is subject to Google's trademark policies.
+"Google Coral" and "Edge TPU" are trademarks of Google LLC. The `coral_reef` package is not affiliated with or endorsed by Google LLC. The Google Coral trademarks and logos are the property of Google LLC and are used here for informational purposes only. Any use of the Google Coral trademarks and logos is subject to Google's trademark policies.
